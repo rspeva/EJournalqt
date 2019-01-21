@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddLesson</class>
+ <widget class="QDialog" name="AddLesson">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>260</width>
+    <height>207</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Добавить занятие</string>
+  </property>
+  <widget class="QPushButton" name="btnAddLessYes">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>139</x>
+     <y>160</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: white;
+	
+	background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(53, 200, 102, 255), stop:1 rgba(4, 142, 50, 255));
+	
+    border-radius:8px;
+    border-style: solid;
+    border-color: rgb(147, 147, 147);
+    border-width: 1px;
+	font: 75 12pt &quot;Segoe Print&quot;;
+
+}
+QPushButton:hover{
+background-color: rgb(7, 193, 82);
+}
+QPushButton:pressed{
+	background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(53, 200, 102, 255), stop:1 rgba(4, 142, 50, 255));
+}
+QPushButton:disabled{
+	background-color: rgb(116, 163, 135);
+	color: rgb(255, 255, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>Добавить</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnAddLessNo">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: white;
+	background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(238, 48, 48, 255), stop:1 rgba(192, 1, 1, 255));	
+	
+	
+    border-radius:8px;
+    border-style: solid;
+    border-color: rgb(147, 147, 147);
+    border-width: 1px;
+	font: 75 12pt &quot;Segoe Print&quot;;
+
+}
+QPushButton:hover{
+background-color: rgb(255, 55, 55);
+}
+QPushButton:pressed{
+background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(238, 48, 48, 255), stop:1 rgba(192, 1, 1, 255));	
+}
+QPushButton:disabled{
+	background-color: rgb(116, 163, 135);
+	color: rgb(255, 255, 255);
+}
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Отмена</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="etAddLessDate">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>20</y>
+     <width>180</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	font: 75 12pt &quot;Segoe Print&quot;;
+</string>
+   </property>
+   <property name="maxLength">
+    <number>4</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="etAddLessTheme">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>60</y>
+     <width>180</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	font: 75 12pt &quot;Segoe Print&quot;;
+</string>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="dragEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="etAddLessDZ">
+   <property name="geometry">
+    <rect>
+     <x>65</x>
+     <y>100</y>
+     <width>180</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	font: 75 12pt &quot;Segoe Print&quot;;
+</string>
+   </property>
+   <property name="dragEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb1">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>20</y>
+     <width>50</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: white;
+	
+	background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(53, 200, 102, 255), stop:1 rgba(4, 142, 50, 255));
+	
+    border-style: solid;
+    border-color: rgb(147, 147, 147);
+    border-width: 1px;
+	font: 75 12pt &quot;Segoe Print&quot;;
+
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Дата</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb1_2">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>60</y>
+     <width>50</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: white;
+	
+	background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(53, 200, 102, 255), stop:1 rgba(4, 142, 50, 255));
+	
+    border-style: solid;
+    border-color: rgb(147, 147, 147);
+    border-width: 1px;
+	font: 75 12pt &quot;Segoe Print&quot;;
+
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Тема</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb1_3">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>100</y>
+     <width>50</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: white;
+	
+	background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(53, 200, 102, 255), stop:1 rgba(4, 142, 50, 255));
+	
+    border-style: solid;
+    border-color: rgb(147, 147, 147);
+    border-width: 1px;
+	font: 75 12pt &quot;Segoe Print&quot;;
+
+}
+</string>
+   </property>
+   <property name="text">
+    <string>ДЗ</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

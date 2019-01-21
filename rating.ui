@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Rating</class>
+ <widget class="QDialog" name="Rating">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>532</width>
+    <height>279</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>532</width>
+    <height>279</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>532</width>
+    <height>279</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Рейтинг</string>
+  </property>
+  <widget class="QPushButton" name="pb1_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>261</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: white;
+	
+	background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(53, 200, 102, 255), stop:1 rgba(4, 142, 50, 255));
+	
+    border-style: solid;
+    border-color: rgb(147, 147, 147);
+    border-width: 1px;
+	font: 75 12pt &quot;Segoe Print&quot;;
+
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Максимальный средний бал</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="etAvrMax">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>100</y>
+     <width>51</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;Segoe Print&quot;;</string>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="dragEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="etMiss">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>190</y>
+     <width>51</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;Segoe Print&quot;;</string>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="dragEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb1_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>261</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: white;
+	
+	background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(238, 48, 48, 255), stop:1 rgba(192, 1, 1, 255));	
+    border-style: solid;
+    border-color: rgb(147, 147, 147);
+    border-width: 1px;
+	font: 75 12pt &quot;Segoe Print&quot;;
+
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Миинимальная посещаемость</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="etAct">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>60</y>
+     <width>51</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;Segoe Print&quot;;</string>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="dragEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb1_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>261</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: white;
+	
+	background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(53, 200, 102, 255), stop:1 rgba(4, 142, 50, 255));
+	
+    border-style: solid;
+    border-color: rgb(147, 147, 147);
+    border-width: 1px;
+	font: 75 12pt &quot;Segoe Print&quot;;
+
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Максимальная активность</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="etAvrMin">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>150</y>
+     <width>51</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;Segoe Print&quot;;</string>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="dragEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb1_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>261</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: white;
+	
+	background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(238, 48, 48, 255), stop:1 rgba(192, 1, 1, 255));	
+    border-style: solid;
+    border-color: rgb(147, 147, 147);
+    border-width: 1px;
+	font: 75 12pt &quot;Segoe Print&quot;;
+
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Минимальный средний бал</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="etAmt">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>20</y>
+     <width>51</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;Segoe Print&quot;;</string>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="dragEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb1_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>261</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: white;
+	
+	background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(53, 200, 102, 255), stop:1 rgba(4, 142, 50, 255));
+	
+    border-style: solid;
+    border-color: rgb(147, 147, 147);
+    border-width: 1px;
+	font: 75 12pt &quot;Segoe Print&quot;;
+
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Максимальное кол-во оценок</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnChangeMarkYes">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>240</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: white;
+	
+	background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(53, 200, 102, 255), stop:1 rgba(4, 142, 50, 255));
+	
+    border-radius:8px;
+    border-style: solid;
+    border-color: rgb(147, 147, 147);
+    border-width: 1px;
+	font: 75 12pt &quot;Segoe Print&quot;;
+
+}
+QPushButton:hover{
+background-color: rgb(7, 193, 82);
+}
+QPushButton:pressed{
+	background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(53, 200, 102, 255), stop:1 rgba(4, 142, 50, 255));
+}
+QPushButton:disabled{
+	background-color: rgb(116, 163, 135);
+	color: rgb(255, 255, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>ОК</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="etAvrMaxSurname">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>100</y>
+     <width>180</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;Segoe Print&quot;;</string>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="dragEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="etAmtSurname">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>20</y>
+     <width>180</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;Segoe Print&quot;;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="dragEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="etMissSurname">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>190</y>
+     <width>180</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;Segoe Print&quot;;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="dragEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="etActSurname">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>60</y>
+     <width>180</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;Segoe Print&quot;;
+</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="dragEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="etAvrMinSurname">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>150</y>
+     <width>180</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;Segoe Print&quot;;</string>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="dragEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

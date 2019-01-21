@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>drawable/ic_perm.png</file>
+        <file>drawable/logo.png</file>
+        <file>drawable/load.gif</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file>drawable/otchet_black.png</file>
+        <file>drawable/otchet_white.png</file>
+        <file>drawable/pasp_white.png</file>
+        <file>drawable/rasp_black.png</file>
+        <file>drawable/stud_black.png</file>
+        <file>drawable/stud_white.png</file>
+        <file>drawable/usp_black.png</file>
+        <file>drawable/usp_white.png</file>
+        <file>drawable/alarm.png</file>
+        <file>drawable/prep_black.png</file>
+        <file>drawable/prep_white.png</file>
+        <file>drawable/refresh.png</file>
+    </qresource>
+</RCC>

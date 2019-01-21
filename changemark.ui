@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChangeMark</class>
+ <widget class="QDialog" name="ChangeMark">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>260</width>
+    <height>160</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Изменение оценки</string>
+  </property>
+  <widget class="QPushButton" name="btnChangeMarkNo">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: white;
+	background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(238, 48, 48, 255), stop:1 rgba(192, 1, 1, 255));	
+	
+	
+    border-radius:8px;
+    border-style: solid;
+    border-color: rgb(147, 147, 147);
+    border-width: 1px;
+	font: 75 12pt &quot;Segoe Print&quot;;
+
+}
+QPushButton:hover{
+background-color: rgb(255, 55, 55);
+}
+QPushButton:pressed{
+background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(238, 48, 48, 255), stop:1 rgba(192, 1, 1, 255));	
+}
+QPushButton:disabled{
+	background-color: rgb(116, 163, 135);
+	color: rgb(255, 255, 255);
+}
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Отмена</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb1">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>120</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: white;
+	
+	background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(53, 200, 102, 255), stop:1 rgba(4, 142, 50, 255));
+	
+    border-style: solid;
+    border-color: rgb(147, 147, 147);
+    border-width: 1px;
+	font: 75 12pt &quot;Segoe Print&quot;;
+
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Оценка</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxMark">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>40</y>
+     <width>80</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox {
+	font: 75 12pt &quot;Segoe Print&quot;;
+text-align: center;
+}
+QComboBox QAbstractItemView {
+     selection-background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(53, 200, 102, 255), stop:1 rgba(4, 142, 50, 255));
+	
+ }
+
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>H</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>9</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>10</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>11</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>12</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="btnChangeMarkYes">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>139</x>
+     <y>110</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: white;
+	
+	background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(53, 200, 102, 255), stop:1 rgba(4, 142, 50, 255));
+	
+    border-radius:8px;
+    border-style: solid;
+    border-color: rgb(147, 147, 147);
+    border-width: 1px;
+	font: 75 12pt &quot;Segoe Print&quot;;
+
+}
+QPushButton:hover{
+background-color: rgb(7, 193, 82);
+}
+QPushButton:pressed{
+	background-color: qlineargradient(spread:repeat, x1:0.511, y1:0, x2:0.506, y2:1, stop:0 rgba(53, 200, 102, 255), stop:1 rgba(4, 142, 50, 255));
+}
+QPushButton:disabled{
+	background-color: rgb(116, 163, 135);
+	color: rgb(255, 255, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>Изменить</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
